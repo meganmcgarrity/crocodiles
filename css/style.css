@@ -1,6 +1,6 @@
 body {
     background: #f7f7f7;
-    color: #006241;
+    color: #333333;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -23,7 +23,7 @@ h1, h2, blockquote {
 h1 {
     font-size: 7.594rem;
     line-height: 1.1;
-    color: #AE821C;
+    color: ##006241;
     margin: 5rem 0 1rem 0;
 }
 
