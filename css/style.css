@@ -17,13 +17,13 @@ font-family: "Averia Serif Libre", serif;
 }
 
 h1, h2, blockquote {
-    color: #seagreen;
+    color: seagreen;
 }
 
 h1 {
     font-size: 7.594rem;
     line-height: 1.1;
-    color: #seagreen;
+    color: seagreen;
     margin: 5rem 0 1rem 0;
 }
 
