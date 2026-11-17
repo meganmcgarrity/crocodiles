@@ -1,7 +1,7 @@
 body {
     background: #f7f7f7;
     color: #333333;
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 section, header {
@@ -13,7 +13,7 @@ section, header {
 /* Typography */
 
 h1, h2 {
-    font-family: "Merriweather", serif;
+font-family: "Averia Serif Libre", serif;
 }
 
 h1, h2, blockquote {
@@ -33,7 +33,7 @@ h2 {
 }
 
 header h2 {
-    font-family: "Merriweather Sans", sans-serif;
+     font-family: "Averia Serif Libre", serif;
     font-weight: 300;
     color: #333333;
     font-style: oblique;
@@ -41,7 +41,7 @@ header h2 {
 }
 
 header p {
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Averia Serif Libre", serif;
     font-size: 1.5rem;
     font-weight: 300;
     color: #743B09;
@@ -53,7 +53,7 @@ p, blockquote {
 }
 
 blockquote {
-    font-family: "Merriweather", serif;
+   font-family: "Averia Serif Libre", serif;
     line-height: 1.6;
     font-style: italic;
     font-size: 1.5rem;
