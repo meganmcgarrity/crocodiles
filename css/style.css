@@ -33,7 +33,7 @@ h2 {
 }
 
 header h2 {
-     font-family: "Averia Serif Libre", serif;
+    font-family: "Averia Serif Libre", serif;
     font-weight: 300;
     color: #121212;
     font-style: oblique;
@@ -67,7 +67,7 @@ blockquote {
 .responsivenav {
         background: #121212;
         padding-bottom: 10px;
-        font-display: flex;
+        display: flex;
         justify-content: space-between;
         align-item: center;
 }
