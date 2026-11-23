@@ -1,5 +1,5 @@
 body {
-    background: #223b20;
+    background: #90c68d;
     color: #b5f8d6;
     font-family: "Josefin Sans", sans-serif;
 }
@@ -80,6 +80,19 @@ blockquote {
         padding-left: 35px;
 }
 
+/*--Styling Links--*/
+
+a{ 
+    color:#204f33;
+    text-decoration: none;
+    border-bottom: 2xp dotted;
+    font-weight: 600;
+}
+
+a:hover {color: #AE821C;
+        transition: all 0.3s ease-in-out;
+}
+
 nav{
     display: flex;
     padding: 1.5rem 0;
@@ -110,6 +123,10 @@ nav a {
             color:rgb(207, 252, 173);
             transition: all 0.3s ease-in-out;
 
+ }
+
+ .light {
+    background:#e7f5cb;
  }
 
 footer {

@@ -1,0 +1,118 @@
+body {
+    background: #223b20;
+    color: #b5f8d6;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+section, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Typography */
+
+h1, h2 {
+font-family: "Averia Serif Libre", serif;
+}
+
+h1, h2, blockquote {
+    color: #204f33;
+}
+
+h1 {
+    font-size: 7.594rem;
+    line-height: 1.1;
+    color: seagreen;
+    margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 2.250rem;
+    margin: 6rem 0 2rem 0;
+}
+
+header h2 {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    color: #121212;
+    font-style: oblique;
+    margin: 1rem 0 4rem 0;
+}
+
+header p {
+    font-family: "Averia Serif Libre", serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: seagreen;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+blockquote {
+   font-family: "Averia Serif Libre", serif;
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 1.5rem;
+    hanging-punctuation: first;
+    text-indent: -0.6rem;
+    margin: 4rem 0 2rem 0;
+}
+
+/*-- navigation --*/
+
+.responsivenav {
+        background: #ade59d;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#logo {
+        font-size: 2rem;
+        color: #e7f5cb;
+        font-family: 'Averia Serif Libre', serif;
+        font-weight: 600;
+        padding-left: 35px;
+}
+
+nav{
+    display: flex;
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: in-line;
+    margin-top: 5px;
+}
+
+nav a {
+    border-bottom: none;
+    color: f7f7f7;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ nav a:hover {
+            color:rgb(207, 252, 173);
+            transition: all 0.3s ease-in-out;
+
+ }
+
+footer {
+    text-align: center;
+    margin: 4rem 0;
+}
