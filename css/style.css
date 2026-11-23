@@ -1,6 +1,6 @@
 body {
-    background: #90c68d;
-    color: #b5f8d6;
+    background: #e3e3e3;
+    color: #071e12;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -35,7 +35,7 @@ h2 {
 header h2 {
     font-family: "Averia Serif Libre", serif;
     font-weight: 300;
-    color: #121212;
+    color: #224c3a;
     font-style: oblique;
     margin: 1rem 0 4rem 0;
 }
@@ -129,7 +129,18 @@ nav a {
     background:#e7f5cb;
  }
 
+
 footer {
+    background:#3f5a0b;
+    color:#f1f1f1;
     text-align: center;
     margin: 4rem 0;
+}
+
+footer a {
+    color:gold;
+}
+
+footer a:hover {
+    color:#AE821C;
 }
