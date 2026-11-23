@@ -82,18 +82,16 @@ blockquote {
 
 /*--Styling Links--*/
 
-a{ 
-    color:#204f33;
+a {
+    color: #743B09;
     text-decoration: none;
-    border-bottom: 2xp dotted;
-    font-weight: 600;
-}
+    border-bottom: 2px dotted;
+    font-weight: 600;}
+a:hover {
+    color: #AE821C;
+    transition: all 0.3s ease-in-out;}
 
-a:hover {color: #AE821C;
-        transition: all 0.3s ease-in-out;
-}
-
-nav{
+nav {
     display: flex;
     padding: 1.5rem 0;
     font-size: 0.8rem;
@@ -106,41 +104,47 @@ nav ul {
     list-style-type: none;
     padding-right: 70px;
 }
-
 nav ul li {
     display: inline;
-    margin-top: 5px;
+    margin: 5px;
 }
-
 nav a {
     border-bottom: none;
-    color: f7f7f7;
+    text-decoration: none; /* ADD THIS */
+    color: #f7f7f7;
     padding: 10px;
-    text-decoration: none;
 }
 
- nav a:hover {
-            color:rgb(207, 252, 173);
-            transition: all 0.3s ease-in-out;
+nav a:hover {
+    color: #fbd681;
+    transition: all 0.3s ease-in-out;
+}
 
- }
 
- .light {
-    background:#e7f5cb;
- }
 
+.light {
+    background: #fbd681;
+    padding: 3rem 0;
+} 
+
+.books ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.books li {
+    padding-bottom: 1rem;
+} 
 
 footer {
-    background:#3f5a0b;
-    color:#f1f1f1;
-    text-align: center;
-    margin: 4rem 0;
-}
-
+   background: #333333;
+   color: #f7f7f7;
+   text-align: center;
+   padding: 3rem 0;
+} 
 footer a {
-    color:gold;
+    color: #fbd681;
 }
-
 footer a:hover {
-    color:#AE821C;
+    color: #f7f7f7;
 }
