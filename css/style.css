@@ -91,9 +91,17 @@ nav ul {
     text-transform: uppercase;
     letter-spacing: 1px;
     list-style-type: none;
+    padding-right: 70px;
 }
 
+nav ul li {
+    display: in-line;
+    margin-top: 5px;
+}
 
+nav a {
+    border-bottom: none;
+}
 
 footer {
     text-align: center;
