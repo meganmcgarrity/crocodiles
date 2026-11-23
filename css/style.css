@@ -65,10 +65,11 @@ blockquote {
 /*-- navigation --*/
 
 .responsivenav {
-        background: #743B09;
+        background: #121212;
         padding-bottom: 10px;
         font-display: flex;
         justify-content: space-between;
+        align-item: center;
 }
 
 footer {
