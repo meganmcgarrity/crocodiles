@@ -75,6 +75,10 @@ blockquote {
 #logo {
         font-size: 2rem;
         color: #f7f7f7;
+        font-family: 'Averia Serif Libre', serif;
+        font-weight: 600;
+        padding-left: 35px;
+}
 
 footer {
     text-align: center;
