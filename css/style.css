@@ -1,6 +1,6 @@
 body {
-    background: #e3e3e3;
-    color: #071e12;
+    background: #f5f5f5;
+    color: #0d2c1c;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -35,7 +35,7 @@ h2 {
 header h2 {
     font-family: "Averia Serif Libre", serif;
     font-weight: 300;
-    color: #224c3a;
+    color: #27513f;
     font-style: oblique;
     margin: 1rem 0 4rem 0;
 }
@@ -65,8 +65,9 @@ blockquote {
 /*-- navigation --*/
 
 .responsivenav {
-        background: #ade59d;
+        background: #37a871;
         padding-bottom: 10px;
+        /* font-display: flex; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -74,21 +75,25 @@ blockquote {
 
 #logo {
         font-size: 2rem;
-        color: #e7f5cb;
-        font-family: 'Averia Serif Libre', serif;
+        color: #ecf5db;
+
         font-weight: 600;
         padding-left: 35px;
 }
 
+#logo p {
+    font-family: 'Averia Serif Libre', serif;
+
+}
 /*--Styling Links--*/
 
 a {
-    color: #743B09;
+    color: seagreen;
     text-decoration: none;
     border-bottom: 2px dotted;
     font-weight: 600;}
 a:hover {
-    color: #AE821C;
+    color: rgb(72, 193, 125);
     transition: all 0.3s ease-in-out;}
 
 nav {
@@ -111,19 +116,19 @@ nav ul li {
 nav a {
     border-bottom: none;
     text-decoration: none; /* ADD THIS */
-    color: #f7f7f7;
+    color: #f1f1f1;
     padding: 10px;
 }
 
 nav a:hover {
-    color: #fbd681;
+    color: #277245;
     transition: all 0.3s ease-in-out;
 }
 
 
 
 .light {
-    background: #fbd681;
+    background: #81fbb8;
     padding: 3rem 0;
 } 
 
@@ -137,14 +142,14 @@ nav a:hover {
 } 
 
 footer {
-   background: #333333;
+   background: #164d34;
    color: #f7f7f7;
    text-align: center;
    padding: 3rem 0;
 } 
 footer a {
-    color: #fbd681;
+    color: #f1f1f1;
 }
 footer a:hover {
-    color: #f7f7f7;
+    color: #12f7aa;
 }
