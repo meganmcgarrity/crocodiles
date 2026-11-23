@@ -72,6 +72,10 @@ blockquote {
         align-item: center;
 }
 
+#logo {
+        font-weight: 2rem;
+        color: #f7f7f7;
+
 footer {
     text-align: center;
     margin: 4rem 0;
