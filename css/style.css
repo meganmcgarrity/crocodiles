@@ -80,6 +80,19 @@ blockquote {
         padding-left: 35px;
 }
 
+nav{
+    display: flex;
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
+}
+
+nav ul {
+    text-align: right;
+
+}
+
+
+
 footer {
     text-align: center;
     margin: 4rem 0;
